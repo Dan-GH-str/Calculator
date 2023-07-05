@@ -24,8 +24,10 @@ btns.map((btn) => {
         switch(e.target.id) {
             case 'CE':
                 display.innerHTML = '0'
-                if (display.classList.contains('reduceFontSize'))
+                if (display.classList.contains('reduceFontSize')) {
                     display.classList.remove('reduceFontSize')
+                    fontReduced = false
+                }
                 break
 
             case 'negative':

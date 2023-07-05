@@ -143,121 +143,68 @@ body {
     background-color: rgb(32, 32, 32);
 }
 
-@media(max-width: 1440px) and (min-width: 1367px) {
-    .calc {
-        width: 30%;
-    }
-}
-
-@media(max-width: 768px) and (min-width: 601px){
-    .calc {
-        width: 35%;
-    }
-
-    .display {
-        font-size: 50px;
-    }
-    
-    .reduceFontSize {
-        font-size: 35px;
-    }
-
-    .buttons .button {
-        height: 99%;
-        width: 19%;
-        font-size: 25px;
-    }
-
-    .buttons .btn-zero {
-        height: 99%;
-        width: 44%;
-    }
-}
-
-@media(max-width: 600px) and (min-width: 481px) {
+@media(max-width: 900px) {
     .calc {
         width: 40%;
     }
 
-    .display{
-        font-size: 50px;
+    .display {
+        font-size: 54px;
     }
 
-    .buttons .button {
-        height: 97%;
-        width: 21%;
-        font-size: 22px;
-    }
-
-    .buttons .btn-zero {
-        height: 97%;
-        width: 44%;
+    .reduceFontSize {
+        font-size: 40px;
+        padding-top: 1.2em;
     }
 }
 
-@media(max-width: 480px) and (min-width: 381px) {
+@media(max-width: 700px) {
     .calc {
         width: 50%;
     }
+}
+
+@media(max-width: 540px) {
+    .calc {
+        width: 55%;
+    }
 
     .display {
-        font-size: 45px;
-    }
-    
-    .reduceFontSize {
-        font-size: 32px;
+        font-size: 52px;
     }
 
     .buttons .button {
-        font-size: 23px;
-    }
-
-    .buttons .btn-zero {
-        width: 44%;
+        font-size: 26px;
     }
 }
 
-@media(max-width: 380px) and (min-width: 321px) {
+@media(max-width: 420px) {
     .calc {
-        width: 60%;
+        width: 65%;
     }
 
     .display {
-        font-size: 50px;
+        font-size: 48px;
     }
-    
+
     .reduceFontSize {
         font-size: 32px;
+        padding-top: 1.7em;
+    }
+}
+
+@media(max-width: 345px) {
+    .calc {
+        width: 70%;
     }
 
     .buttons .button {
-        font-size: 21px;
-    }
-
-    .buttons .btn-zero {
-        width: 44%;
+        font-size: 24px;
     }
 }
 
 @media(max-width: 320px) {
     .calc {
-        width: 75%;
-    }
-
-    .display {
-        font-size: 47px;
-        padding-right: .5em;
-    }
-    
-    .reduceFontSize {
-        font-size: 32px;
-    }
-
-    .buttons .button {
-        font-size: 25px;
-    }
-
-    .buttons .btn-zero {
-        width: 46%;
+        width: 80%;
     }
 }
