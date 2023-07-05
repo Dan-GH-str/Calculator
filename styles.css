@@ -209,4 +209,8 @@ body {
     .calc {
         width: 80%;
     }
+
+    .display {
+        padding-top: .6em;
+    }
 }
