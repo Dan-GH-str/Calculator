@@ -70,6 +70,11 @@ body {
     padding-top: 1.2em;
 }
 
+.feature {
+    font-size: 38px;
+    padding-bottom: .8em;
+}
+
 
 
 /* Настройки нижней панели калькулятора (кнопки) */

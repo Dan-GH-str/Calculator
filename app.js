@@ -45,7 +45,7 @@ btns.map((btn) => {
                 break
 
             case 'counting':
-                display.innerHTML = eval(display.innerHTML)
+                display.innerHTML = display.innerHTML === '69'? '<div class="feature">Соня зепка))&#9825</div>;' : eval(display.innerHTML)
                 break
                 
             default:
